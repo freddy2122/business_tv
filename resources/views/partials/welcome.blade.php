@@ -9,10 +9,12 @@
                 <h1 class="mb-4">Business TV</h1>
                 <p class="text-lg text-grey mb-5">inspirer, informer et soutenir les entrepreneurs et les aspirants entrepreneurs du Bénin et d'Afrique</p>
                 <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
+               
             </div>
             <div class="col-md-6 py-5 wow zoomIn">
                 <div class="img-fluid text-center">
-                    <img src="/assets/img/banner_image_1.svg" alt="">
+                    <!-- <img src="/assets/img/banner_image_1.svg" alt=""> -->
+                    <iframe  height="315" src="https://www.youtube.com/embed/mvwn_Px6Z7w?si=4TwoIRVesn4bUYL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
