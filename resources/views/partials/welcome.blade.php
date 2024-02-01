@@ -79,7 +79,7 @@
             </div>
             <div class="col-lg-6 py-3 wow fadeInRight">
                 <div class="img-fluid py-3 text-center">
-                    <img src="/assets/img/11.png" alt="">
+                    <img src="/assets/img/11.png" alt="" width="370px">
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="col-lg-6 py-3 wow fadeInRight">
                     <div class="img-fluid text-center">
-                        <img src="/assets/img/10.png" alt="">
+                        <img src="/assets/img/10.png" alt="" width="370px">
                     </div>
                 </div>
             </div>
