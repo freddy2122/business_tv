@@ -1014,9 +1014,9 @@ a.text-dark:hover, a.text-dark:focus {
   min-height: 70px;
 }
 
-.navbar.sticky {
+/* .navbar.sticky {
   z-index: 1080;
-}
+} */
 
 .navbar.sticky.fixed ~ * {
   margin-top: 70px;
