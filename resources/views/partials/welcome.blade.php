@@ -8,17 +8,31 @@
             <div class="col-md-6 py-5 wow fadeInLeft">
                 <h1 class="mb-4">Business TV</h1>
                 <p class="text-lg text-grey mb-5">inspirer, informer et soutenir les entrepreneurs et les aspirants entrepreneurs du Bénin et d'Afrique</p>
-                <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
-               
+                <a href="#" class="btn btn-primary btn-split" data-toggle="modal" data-target="#videoModal">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
+                <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog  " role="document">
+                        <div class="modal-content">
+                            <div class="modal-body" style="border: none;">
+                                <!-- Assurez-vous que le chemin de votre vidéo est correct -->
+                                <video controls width="100%">
+                                    <source src="/assets/video/PUB.mp4" type="video/mp4">
+                                    Votre navigateur ne prend pas en charge la lecture de la vidéo.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-6 py-5 wow zoomIn">
                 <div class="img-fluid text-center">
-                    <!-- <img src="/assets/img/banner_image_1.svg" alt=""> -->
-                    <iframe  height="315" src="https://www.youtube.com/embed/mvwn_Px6Z7w?si=4TwoIRVesn4bUYL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <img src="/assets/img/12.png" width="370px" height="300px" alt="">
                 </div>
             </div>
         </div>
-        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
+
+        <!-- Button trigger modal -->
+
     </div>
 </div>
 
