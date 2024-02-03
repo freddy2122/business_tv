@@ -16,7 +16,6 @@
         outline: 0;
         /* box-shadow: var(--bs-accordion-btn-focus-box-shadow); */
     }
-
 </style>
 <div class="container">
     <div class="page-banner">
@@ -32,64 +31,47 @@
             </div>
         </div>
     </div>
-   
-   
+
+
 </div>
 
 <div class="page-section">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 py-3">
-                <h2 class="title-section">The number #1 SEO Service Company</h2>
+                <h2 class="title-section">Notre mission</h2>
                 <div class="divider"></div>
+                <p>
+                    Business TV a pour mission d'inspirer, d'informer et de soutenir les entrepreneurs et les aspirants entrepreneurs du Bénin et d'Afrique. Nous nous engageons à fournir des contenus de haute qualité, pertinents et pratiques, qui couvrent les défis, les succès et les innovations dans le monde de l'entrepreneuriat. Notre but est de créer une plateforme dynamique et interactive qui favorise l'échange d'idées, le partage d'expériences et le développement de compétences, contribuant ainsi à l'épanouissement et à la croissance de l'écosystème entrepreneurial.
+                </p>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Accordion Item #1
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Accordion Item #2
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                            Accordion Item #3
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="col-lg-6 py-3">
                 <div class="img-fluid py-3 text-center">
-                    <img src="/assets/img/13.png" width="390px" alt="">
+                    <img src="/assets/img/14.png" width="390px" alt="">
                 </div>
             </div>
         </div>
     </div>
-</div> 
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-lg-6 py-3">
+                <div class="img-fluid py-3 text-center">
+                    <img src="/assets/img/13.png" width="390px" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 py-3">
+                <h2 class="title-section">Notre vision</h2>
+                <div class="divider"></div>
+                <p>
+                La vision de Business TV est de devenir le principal média digital du Bénin et d'Afrique pour tout ce qui concerne l'entrepreneuriat, en étant une source d'inspiration et une référence pour les entrepreneurs à tous les stades de leur parcours. Nous aspirons à créer une communauté engagée et informée, qui contribue activement au développement économique et social du Bénin. En mettant en lumière les histoires de réussite locales et en offrant des insights sur les tendances globales, nous voulons encourager l'innovation, la créativité et l'impact social positif.
+                </p>
+
+            </div>
+           
+        </div>
+    </div>
+</div>
 
 
 

@@ -67,6 +67,7 @@
 <div class="page-section  team">
     <div class="container">
         <div class="row">
+        <h2 class="title-section text-center">Notre équipe</h2> 
             <div class="col-lg-4">
                 <div class="card-service wow fadeInUp">
                     <div class="header">
@@ -75,7 +76,7 @@
                     <div class="body">
                         <h5 class="text-secondary">SEO Consultancy</h5>
                         <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                        <a href="service.html" class="btn btn-primary">Read More</a>
+                       
                     </div>
                 </div>
             </div>
@@ -87,7 +88,7 @@
                     <div class="body">
                         <h5 class="text-secondary">Content Marketing</h5>
                         <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                        <a href="service.html" class="btn btn-primary">Read More</a>
+                       
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@
                     <div class="body">
                         <h5 class="text-secondary">Keyword Research</h5>
                         <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                        <a href="service.html" class="btn btn-primary">Read More</a>
+                       
                     </div>
                 </div>
             </div>
@@ -218,20 +219,15 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
-                    <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
+                    <h2 class="title-section">Pensez-vous devenir entrepreneur?</h2>
                     <div class="divider"></div>
-                    <p>We're an experienced and talented team of passionate consultants who breathe with search engine marketing.</p>
+                    Envisager de devenir entrepreneur nécessite une combinaison de passion, de clarté dans le projet, et d'une approche bien planifiée. Faire un bilan personnel, confronter son idée au marché, suivre des étapes structurées, et s'entourer judicieusement sont des éléments cruciaux pour réussir dans l'entrepreneuriat. Accéder à des conseils, des informations, et suivre des conseils pratiques peut également jouer un rôle essentiel dans ce parcours.
 
-                    <ul class="theme-list theme-list-light text-white">
-                        <li>
-                            <div class="h5">SEO Content Strategy</div>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                        </li>
-                        <li>
-                            <div class="h5">B2B SEO</div>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                        </li>
-                    </ul>
+
+
+
+
+
                 </div>
                 <div class="col-lg-6 py-3 wow fadeInRight">
                     <div class="img-fluid text-center">
