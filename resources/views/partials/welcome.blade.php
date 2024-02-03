@@ -83,8 +83,8 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 py-3 wow fadeInUp">
-                <span class="subhead">About us</span>
-                <h2 class="title-section">The number #1 SEO Service Company</h2>
+                <span class="subhead">A prpos de nous</span>
+                <h2 class="title-section">Le numéro 1 en business</h2>
                 <div class="divider"></div>
 
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
