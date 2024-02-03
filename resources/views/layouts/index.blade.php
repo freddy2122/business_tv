@@ -12,6 +12,7 @@
     <link rel="icon" href="/assets/img/logo.png" type="image/x-icon">
 
     <title>Business TV - SEO Agency Template</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/assets/css/maicons.css">
@@ -21,7 +22,13 @@
     <link rel="stylesheet" href="/assets/vendor/animate/animate.css">
 
     <link rel="stylesheet" href="/assets/css/theme.css">
-
+<style>
+    .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    /* box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width); */
+}
+</style>
 </head>
 
 <body>
@@ -32,7 +39,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
             <div class="container">
-                <a href="/" class="navbar-brand"><img src="/assets/img/logo.png" width="100px" height="100px" alt=""></a>
+                <a href="/" class="navbar-brand"><img src="/assets/img/logo.png" width="80px" height="80px" alt=""></a>
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,10 +48,10 @@
                 <div class="navbar-collapse collapse" id="navbarContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/">ACCUEIL</a>
+                            <a class="nav-link" href="/">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('about')}}">A PROPOS DE NOUS</a>
+                            <a class="nav-link" href="{{route('about')}}">A propos de nous</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('blog')}}">Blog</a>
@@ -120,8 +127,16 @@
     <script src="/assets/js/theme.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    $(document).ready(function(){
+        // Active la barre de navigation
+        $(".nav-item").click(function(){
+            $(".nav-item").removeClass("active");
+            $(this).addClass("active");
+        });
+    });
+</script>
 
 </body>
 
