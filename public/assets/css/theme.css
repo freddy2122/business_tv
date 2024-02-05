@@ -1499,7 +1499,7 @@ a.text-dark:focus {
 @media (max-width: 768px) {
   
   .team {
-    margin-top: 0 !important;
+    margin-top: -115px !important;
   }
   .page-section {
    
@@ -1508,7 +1508,7 @@ a.text-dark:focus {
 }
 
 .team {
-  margin-top: 510px;
+  margin-top: 760px;
 }
 
 .page-hero.overlay-dark::before,
