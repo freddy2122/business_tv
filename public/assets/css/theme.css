@@ -1508,7 +1508,11 @@ a.text-dark:focus {
 }
 
 .team {
+<<<<<<< HEAD
   margin-top: 435px;
+=======
+  margin-top: 760px;
+>>>>>>> 0a1716d1ae4c503682b433bec8c2f78e4d83da33
 }
 
 .page-hero.overlay-dark::before,
