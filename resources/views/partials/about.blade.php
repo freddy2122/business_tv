@@ -17,8 +17,8 @@
         /* box-shadow: var(--bs-accordion-btn-focus-box-shadow); */
     }
 </style>
-<div class="container">
-    <div class="page-banner">
+<div class="container-fluid" style="background:url('/assets/img/18.jpg');background-size:cover;height:660px">
+    <!-- <div class="page-banner">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-md-6">
                 <nav aria-label="Breadcrumb">
@@ -30,7 +30,7 @@
                 <h1 class="text-center">A propos de nous</h1>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 </div>
