@@ -56,7 +56,7 @@
     <div class="page-banner">
 
         <div class="video-container">
-            <video autoplay muted loop id="background-video">
+            <video autoplay muted loop id="background-video"  >
                 <source src="/assets/video/PUB.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise vidéo.
             </video>
@@ -64,49 +64,34 @@
     </div>
 
 </div>
-<div class="page-section  team">
-    <div class="container">
-        <div class="row">
-        <h2 class="title-section text-center">Notre équipe</h2> 
-            <div class="col-lg-4">
-                <div class="card-service wow fadeInUp">
-                    <div class="header">
-                        <img src="/assets/img/services/service-1.svg" alt="">
-                    </div>
-                    <div class="body">
-                        <h5 class="text-secondary">SEO Consultancy</h5>
-                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
-                    </div>
+
+
+<!-- Banner info -->
+<div class="page-section banner-info mb-5 team">
+    <div class="wrap bg-image" style="background-image: url(/assets/img/bg_pattern.svg);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
+                    <h2 class="title-section">Pensez-vous devenir entrepreneur?</h2>
+                    <div class="divider"></div>
+                    Envisager de devenir entrepreneur nécessite une combinaison de passion, de clarté dans le projet, et d'une approche bien planifiée. Faire un bilan personnel, confronter son idée au marché, suivre des étapes structurées, et s'entourer judicieusement sont des éléments cruciaux pour réussir dans l'entrepreneuriat. Accéder à des conseils, des informations, et suivre des conseils pratiques peut également jouer un rôle essentiel dans ce parcours.
+
+
+
+
+
+
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card-service wow fadeInUp">
-                    <div class="header">
-                        <img src="/assets/img/services/service-2.svg" alt="">
-                    </div>
-                    <div class="body">
-                        <h5 class="text-secondary">Content Marketing</h5>
-                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card-service wow fadeInUp">
-                    <div class="header">
-                        <img src="/assets/img/services/service-3.svg" alt="">
-                    </div>
-                    <div class="body">
-                        <h5 class="text-secondary">Keyword Research</h5>
-                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
+                <div class="col-lg-6 py-3 wow fadeInRight">
+                    <div class="img-fluid text-center">
+                        <img src="/assets/img/10.png" alt="" width="370px">
                     </div>
                 </div>
             </div>
         </div>
-    </div> <!-- .container -->
+    </div> <!-- .wrap -->
 </div> <!-- .page-section -->
+
 
 <div class="page-section" id="about">
     <div class="container">
@@ -212,32 +197,50 @@
 
 
 
-
-<!-- Banner info -->
-<div class="page-section banner-info mb-5">
-    <div class="wrap bg-image" style="background-image: url(/assets/img/bg_pattern.svg);">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
-                    <h2 class="title-section">Pensez-vous devenir entrepreneur?</h2>
-                    <div class="divider"></div>
-                    Envisager de devenir entrepreneur nécessite une combinaison de passion, de clarté dans le projet, et d'une approche bien planifiée. Faire un bilan personnel, confronter son idée au marché, suivre des étapes structurées, et s'entourer judicieusement sont des éléments cruciaux pour réussir dans l'entrepreneuriat. Accéder à des conseils, des informations, et suivre des conseils pratiques peut également jouer un rôle essentiel dans ce parcours.
-
-
-
-
-
-
+<div class="page-section  ">
+    <div class="container">
+        <div class="row">
+        <h2 class="title-section text-center">Notre équipe</h2> 
+            <div class="col-lg-4">
+                <div class="card-service wow fadeInUp">
+                    <div class="header">
+                        <img src="/assets/img/services/service-1.svg" alt="">
+                    </div>
+                    <div class="body">
+                        <h5 class="text-secondary">SEO Consultancy</h5>
+                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
+                       
+                    </div>
                 </div>
-                <div class="col-lg-6 py-3 wow fadeInRight">
-                    <div class="img-fluid text-center">
-                        <img src="/assets/img/10.png" alt="" width="370px">
+            </div>
+            <div class="col-lg-4">
+                <div class="card-service wow fadeInUp">
+                    <div class="header">
+                        <img src="/assets/img/services/service-2.svg" alt="">
+                    </div>
+                    <div class="body">
+                        <h5 class="text-secondary">Content Marketing</h5>
+                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-service wow fadeInUp">
+                    <div class="header">
+                        <img src="/assets/img/services/service-3.svg" alt="">
+                    </div>
+                    <div class="body">
+                        <h5 class="text-secondary">Keyword Research</h5>
+                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
+                       
                     </div>
                 </div>
             </div>
         </div>
-    </div> <!-- .wrap -->
+    </div> <!-- .container -->
 </div> <!-- .page-section -->
+
 
 
 

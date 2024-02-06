@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/assets/vendor/animate/animate.css">
 
     <link rel="stylesheet" href="/assets/css/theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 <style>
     .navbar-toggler:focus {
     text-decoration: none;

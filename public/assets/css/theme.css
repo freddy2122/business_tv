@@ -7,7 +7,7 @@
   Version: 1.0
  */
 
-:root {
+ :root {
   --primary: #6C55F9;
   --accent: #FF3D85;
   --secondary: #645F88;
@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   color: #2D2B3A;
 }
@@ -1499,7 +1499,7 @@ a.text-dark:focus {
 @media (max-width: 768px) {
   
   .team {
-    margin-top: 0 !important;
+    margin-top: -115px !important;
   }
   .page-section {
    
@@ -1508,7 +1508,7 @@ a.text-dark:focus {
 }
 
 .team {
-  margin-top: 510px;
+  margin-top: 435px;
 }
 
 .page-hero.overlay-dark::before,
