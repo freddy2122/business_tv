@@ -113,7 +113,7 @@
                 </div>
             </div>
 
-            <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+            <p class="text-center" id="copyright">Copyright &copy; 2024, Tout droits réservés, developpé par Safi & Freddy</p>
         </div>
     </footer>
 
