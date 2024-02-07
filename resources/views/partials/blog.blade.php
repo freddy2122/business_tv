@@ -184,7 +184,7 @@
     <div class="container mt-5">
         <div class="row">
             <h3 class="border-bottom">Notre gallerie</h3>
-            <ul class="card-list">
+            <ul class="card-list ">
 
                 <div class="card card20">
 
