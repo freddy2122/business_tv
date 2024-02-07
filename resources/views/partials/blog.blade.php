@@ -2,13 +2,73 @@
 
 @section('content')
 
+<style>
+    /* Lazy Load Styles */
+    .card-image {
+        display: block;
+        min-height: 20rem;
+        /* layout hack */
+        background: #fff center center no-repeat;
+        background-size: cover;
+        filter: blur(3px);
+        /* blur the lowres image */
+    }
 
+    .card-image>img {
+        display: block;
+        width: 100%;
+        opacity: 0;
+        /* visually hide the img element */
+    }
+
+    .card-image.is-loaded {
+        filter: none;
+        /* remove the blur on fullres image */
+        transition: filter 1s;
+    }
+
+    /* Layout Styles */
+
+
+    .card-list {
+        display: block;
+        margin: 1rem auto;
+        padding: 0;
+        font-size: 0;
+        text-align: center;
+        list-style: none;
+    }
+
+    .card20 {
+        display: inline-block;
+        width: 90%;
+        max-width: 20rem;
+        margin: 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        overflow: hidden;
+        box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+        transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+    }
+
+    .card20:hover {
+        transform: translateY(-0.5rem) scale(1.0125);
+        box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+    }
+
+    .card-description {
+        display: block;
+        padding: 1em 0.5em;
+        color: #515151;
+        text-decoration: none;
+    }
+</style>
 
 <main class="container">
-    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis">
         <div class="col-lg-6 px-0">
-            <h1 class=" fst-italic">Title of a longer featured blog post</h4>
-                <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+            <h1 class=" fst-italic">Découvrez l'impact de la Business TV sur le monde entrepreneurial</h4>
+                <p class="lead my-3">Comment les startups utilisent la Business TV pour accroître leur visibilité, les opportunités offertes par Business TV et autres chaînes pour votre entreprise</p>
         </div>
     </div>
 
@@ -117,52 +177,73 @@
         </div>
     </div>
 
-    <div class="container-fluid mt-3">
-        <h3 class="border-bottom pb-3">Notre gallerie d'image</h3>
-        <div class="row">
-            <div class="col-md-4 mb-3">
-                <div class="card" >
-                    <img src="/assets/img/18.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" >
-                    <img src="/assets/img/18.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="card" >
-                    <img src="/assets/img/18.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="card" >
-                    <img src="/assets/img/18.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <h3 class="border-bottom">Notre gallerie</h3>
+            <ul class="card-list ">
+
+                <div class="card card20">
+
+                    <img src="/assets/img/19.jpg" class="card-img-top" />
+
+                    <h2>Psychopomp</h2>
+                    <p>Japanese Breakfast</p>
+                </div>
+
+                <div class="card card20">
+
+                    <img src="/assets/img/20.jpg" class="card-img-top" alt="" />
+
+                    <h2>let's go</h2>
+                    <p>In Love With A Ghost</p>
+                </div>
+
+                <div class="card card20">
+
+                    <img src="/assets/img/20.jpg" class="card-img-top" alt="" />
+
+                    <h2>let's go</h2>
+                    <p>In Love With A Ghost</p>
+                </div>
+
+                <div class="card card20">
+                    <img src="/assets/img/21.jpg" class="card-img-top" alt="" />
+                    <h2>The Beautiful Game</h2>
+                    <p>Vulfpeck</p>
+                </div>
+                <div class="card card20">
+                    <img src="/assets/img/21.jpg" class="card-img-top" alt="" />
+                    <h2>The Beautiful Game</h2>
+                    <p>Vulfpeck</p>
+                </div>
+                <div class="card card20">
+                    <img src="/assets/img/21.jpg" class="card-img-top" alt="" />
+                    <h2>The Beautiful Game</h2>
+                    <p>Vulfpeck</p>
+                </div>
+
+            </ul>
+        </div>
+        <nav aria-label="Page Navigation">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </main>
 
 
@@ -172,3 +253,16 @@
 
 
 @endsection
+
+<script>
+    $(".custom-carousel").owlCarousel({
+        autoWidth: true,
+        loop: true
+    });
+    $(document).ready(function() {
+        $(".custom-carousel .item").click(function() {
+            $(".custom-carousel .item").not($(this)).removeClass("active");
+            $(this).toggleClass("active");
+        });
+    });
+</script>
