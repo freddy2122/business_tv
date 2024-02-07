@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Inspirer, informer et soutenir les entreprneurs  et les aspirants entrepreneurs au Bénin.Devenir le principal média digital du Bénin et d'Afrique pour tout ce qui concerne l'entrepreneuriat.">
+    <meta name="description" content="Inspirer, informer et soutenir les entrepreneurs  et les aspirants entrepreneurs au Bénin.Devenir le principal média digital du Bénin et d'Afrique pour tout ce qui concerne l'entrepreneuriat.">
     <meta name="keywords" content="TV,entrepreneuriat, micros-trottoir,émission,débats">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
