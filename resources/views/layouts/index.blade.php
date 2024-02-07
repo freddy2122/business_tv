@@ -4,25 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name ="description" content ="Inspirer, informer et soutenir les entreprneurs  et les aspirants entrepreneurs au Bénin.Devenir le principal média digital du Bénin et d'Afrique pour tout ce qui concerne l'entrepreneuriat.">
+    <meta name="keywords" content="TV,entrepreneuriat, micros-trottoir,émission,débats">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
     <link rel="icon" href="/assets/img/logo.png" type="image/x-icon">
-
-    <title>Business TV - SEO Agency Template</title>
-    
+    <title>Business TV - Inspirer, informer et soutenir les entreprneurs  </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
     <link rel="stylesheet" href="/assets/css/maicons.css">
-
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
-
     <link rel="stylesheet" href="/assets/vendor/animate/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 
     <link rel="stylesheet" href="/assets/css/theme.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+   
 <style>
     .navbar-toggler:focus {
     text-decoration: none;
@@ -77,7 +74,7 @@
             <div class="row mb-5">
                 <div class="col-lg-3 py-3">
                     <h3><img src="/assets/img/logo.png" width="100px" height="100px" alt=""></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
+                    <p>Éclairez votre parcours entrepreneurial avec Business TV, votre guide vers le succès.</p>
 
                     <div class="social-media-button">
                         <a href="#"><span class="mai-logo-facebook-f"></span></a>
@@ -107,13 +104,13 @@
                     <h5>Newsletter</h5>
                     <p>Abonnez-vous à notre newsletter pour avoir plus de nouvelles par mail.</p>
                     <form action="#">
-                        <input type="text" class="form-control" placeholder="Enter your email..">
+                        <input type="text" class="form-control" placeholder="Entrez votre email..">
                         <button type="submit" class="btn btn-primary btn-block mt-2">Souscrire</button>
                     </form>
                 </div>
             </div>
 
-            <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+            <p class="text-center" id="copyright">Copyright &copy; 2024, Tout droits réservés, developpé par Safi & Freddy</p>
         </div>
     </footer>
 
@@ -138,6 +135,7 @@
         });
     });
 </script>
+
 
 </body>
 

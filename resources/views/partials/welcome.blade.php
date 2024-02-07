@@ -246,8 +246,5 @@
 
 
 
-<<<<<<< HEAD
+
 @endsection
-=======
-@endsection
->>>>>>> 0a1716d1ae4c503682b433bec8c2f78e4d83da33
