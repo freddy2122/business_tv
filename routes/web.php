@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[UserController::class,'index']);
 Route::get('/contact',[UserController::class,'contact'])->name('contact');
+Route::post('/contact',[ContactController::class,'envoyerEmail'])->name('envoyer.email');
 Route::get('/about',[UserController::class,'about'])->name('about');
 Route::get('/blog',[UserController::class,'blog'])->name('blog');

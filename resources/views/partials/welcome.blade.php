@@ -197,7 +197,7 @@
 
 
 
-<div class="page-section  ">
+<!-- <div class="page-section  ">
     <div class="container">
         <div class="row">
         <h2 class="title-section text-center">Notre équipe</h2> 
@@ -238,8 +238,8 @@
                 </div>
             </div>
         </div>
-    </div> <!-- .container -->
-</div> <!-- .page-section -->
+    </div>
+</div> -->
 
 
 

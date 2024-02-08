@@ -55,23 +55,24 @@
                 
                 </div>
             <div class="col-lg-8 mb-5 mb-lg-0">
-                <form action="#" class="contact-form py-5 px-lg-5">
+                <form action="{{ route('envoyer.email') }}" method="post" class="contact-form py-5 px-lg-5">
+                    @csrf
                     <h2 class="mb-4 font-weight-medium text-secondary">Get in touch</h2>
                     <div class="row form-group">
                         <div class="col-md-6 mb-3 mb-md-0">
                             <label class="text-black" for="fname">Nom</label>
-                            <input type="text" id="fname" class="form-control">
+                            <input type="text" name="name" id="fname" class="form-control">
                         </div>
                         <div class="col-md-6">
                             <label class="text-black" for="lname">Prénoms</label>
-                            <input type="text" id="lname" class="form-control">
+                            <input type="text" name="prenom" id="lname" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="email">Email</label>
-                            <input type="email" id="email" class="form-control">
+                            <input type="email" name="email" id="email" class="form-control">
                         </div>
                     </div>
 
@@ -79,7 +80,7 @@
 
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Objet</label>
-                            <input type="text" id="subject" class="form-control">
+                            <input type="text" id="subject" name="objet" class="form-control">
                         </div>
                     </div>
 
