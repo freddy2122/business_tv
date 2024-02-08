@@ -2,7 +2,67 @@
 
 @section('content')
 
+<style>
+    /* Lazy Load Styles */
+    .card-image {
+        display: block;
+        min-height: 20rem;
+        /* layout hack */
+        background: #fff center center no-repeat;
+        background-size: cover;
+        filter: blur(3px);
+        /* blur the lowres image */
+    }
 
+    .card-image>img {
+        display: block;
+        width: 100%;
+        opacity: 0;
+        /* visually hide the img element */
+    }
+
+    .card-image.is-loaded {
+        filter: none;
+        /* remove the blur on fullres image */
+        transition: filter 1s;
+    }
+
+    /* Layout Styles */
+
+
+    .card-list {
+        display: block;
+        margin: 1rem auto;
+        padding: 0;
+        font-size: 0;
+        text-align: center;
+        list-style: none;
+    }
+
+    .card20 {
+        display: inline-block;
+        width: 90%;
+        max-width: 20rem;
+        margin: 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        overflow: hidden;
+        box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+        transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+    }
+
+    .card20:hover {
+        transform: translateY(-0.5rem) scale(1.0125);
+        box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+    }
+
+    .card-description {
+        display: block;
+        padding: 1em 0.5em;
+        color: #515151;
+        text-decoration: none;
+    }
+</style>
 
 <style>
     /* Lazy Load Styles */
@@ -254,3 +314,18 @@
 
 @endsection
 
+<<<<<<< HEAD
+=======
+<script>
+    $(".custom-carousel").owlCarousel({
+        autoWidth: true,
+        loop: true
+    });
+    $(document).ready(function() {
+        $(".custom-carousel .item").click(function() {
+            $(".custom-carousel .item").not($(this)).removeClass("active");
+            $(this).toggleClass("active");
+        });
+    });
+</script>
+>>>>>>> a71d4da6ff58b3eb7a58e0a6fc149bbaa3ab1a3a
