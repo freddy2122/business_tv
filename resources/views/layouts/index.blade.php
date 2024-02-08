@@ -97,7 +97,7 @@
                 <div class="col-lg-3 py-3">
                     <h5>Contactez-nous</h5>
                     <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-                    <a href="#" class="footer-link">+229 64897003</a>
+                    <a href="https://wa.me/+22964897003?text=Salut nous voulons avoir plus de renseignement sur votre projet" class="footer-link">+229 64897003</a>
                     <a href="#" class="footer-link">seogram@temporary.com</a>
                 </div>
                 <div class="col-lg-3 py-3">
