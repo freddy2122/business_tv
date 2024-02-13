@@ -56,7 +56,7 @@
     <div class="page-banner">
 
         <div class="video-container">
-            <video autoplay muted loop id="background-video"  >
+            <video autoplay muted loop id="background-video">
                 <source src="/assets/video/PUB.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise vidéo.
             </video>
@@ -75,11 +75,6 @@
                     <h2 class="title-section">Pensez-vous devenir entrepreneur?</h2>
                     <div class="divider"></div>
                     Envisager de devenir entrepreneur nécessite une combinaison de passion, de clarté dans le projet, et d'une approche bien planifiée. Faire un bilan personnel, confronter son idée au marché, suivre des étapes structurées, et s'entourer judicieusement sont des éléments cruciaux pour réussir dans l'entrepreneuriat. Accéder à des conseils, des informations, et suivre des conseils pratiques peut également jouer un rôle essentiel dans ce parcours.
-
-
-
-
-
 
                 </div>
                 <div class="col-lg-6 py-3 wow fadeInRight">
@@ -153,32 +148,32 @@
                                     </h2>
                                     <div id="flush-collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">- Organiser des émissions dédiées à l'entrepreneuriat. <br>
-                                           - Inviter des entrepreneurs à présenter leurs produits, partager leurs expériences, et discuter des défis qu'ils ont surmontés. <br>
-                                          -  Favoriser la visibilité des entrepreneurs et de leurs produits à travers différents médias.</div>
+                                            - Inviter des entrepreneurs à présenter leurs produits, partager leurs expériences, et discuter des défis qu'ils ont surmontés. <br>
+                                            - Favoriser la visibilité des entrepreneurs et de leurs produits à travers différents médias.</div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree4" aria-expanded="false" aria-controls="flush-collapseThree4">
-                                        Micros-Trottoirs sur l'Entrepreneuriat :
+                                            Micros-Trottoirs sur l'Entrepreneuriat :
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">- Réaliser des micros-trottoirs dans des zones fréquentées par la cible (jeunes, étudiants, élèves). <br>
-                                           - Poser des questions sur divers aspects de l'entrepreneuriat pour recueillir les opinions et perceptions du public.<br>
-                                          -  Diffuser ces micros-trottoirs sur les réseaux sociaux et autres plateformes pour sensibiliser et inspirer.</div>
+                                            - Poser des questions sur divers aspects de l'entrepreneuriat pour recueillir les opinions et perceptions du public.<br>
+                                            - Diffuser ces micros-trottoirs sur les réseaux sociaux et autres plateformes pour sensibiliser et inspirer.</div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree5" aria-expanded="false" aria-controls="flush-collapseThree5">
-                                        Débats et Partages de Connaissances :
+                                            Débats et Partages de Connaissances :
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">- Organiser des débats entre experts, entrepreneurs, et acteurs du secteur économique. <br>
-                                           - Aborder des sujets pertinents tels que les tendances du marché, l'innovation, et les opportunités entrepreneuriales.<br>
-                                          - Faciliter le partage de connaissances entre les participants pour favoriser l'apprentissage et l'émulation.</div>
+                                            - Aborder des sujets pertinents tels que les tendances du marché, l'innovation, et les opportunités entrepreneuriales.<br>
+                                            - Faciliter le partage de connaissances entre les participants pour favoriser l'apprentissage et l'émulation.</div>
                                     </div>
                                 </div>
                             </div>
@@ -193,14 +188,17 @@
             </div>
         </div>
     </div> <!-- .container -->
-</div> <!-- .page-section -->
+</div>
+
+
+<!-- .page-section -->
 
 
 
-<!-- <div class="page-section  ">
+<div class="page-section  ">
     <div class="container">
         <div class="row">
-        <h2 class="title-section text-center">Notre équipe</h2> 
+            <h2 class="title-section text-center">Notre équipe</h2>
             <div class="col-lg-4">
                 <div class="card-service wow fadeInUp">
                     <div class="header">
@@ -209,7 +207,7 @@
                     <div class="body">
                         <h5 class="text-secondary">SEO Consultancy</h5>
                         <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
+
                     </div>
                 </div>
             </div>
@@ -221,7 +219,7 @@
                     <div class="body">
                         <h5 class="text-secondary">Content Marketing</h5>
                         <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
+
                     </div>
                 </div>
             </div>
@@ -233,13 +231,13 @@
                     <div class="body">
                         <h5 class="text-secondary">Keyword Research</h5>
                         <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 
 
