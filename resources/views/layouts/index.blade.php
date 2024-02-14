@@ -96,7 +96,11 @@
                 </div>
                 <div class="col-lg-3 py-3">
                     <h5>Contactez-nous</h5>
+<<<<<<< HEAD
                     <p>Deuxième von à droite en quittant carrefour Toyota pour Etoile rouge Cotonou, Bénin</p>
+=======
+                    <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+>>>>>>> 1e9fd2d79a09d1ba47caff9cece295ea463460ff
                     <a href="https://wa.me/+22964897003?text=Salut nous voulons avoir plus de renseignement sur votre projet" class="footer-link">+229 64897003</a>
                     <a href="#" class="footer-link">seogram@temporary.com</a>
                 </div>
