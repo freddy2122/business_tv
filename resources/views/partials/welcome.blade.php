@@ -324,7 +324,7 @@
 <div class="page-section  ">
     <div class="container">
         <div class="row">
-            <h2 class="title-section text-center">Nos Collaboateurs</h2>
+            <h2 class="title-section text-center">Nos Collaborateurs</h2>
            
             <div class="col-lg-12">
                 <div class="wrapper20">
