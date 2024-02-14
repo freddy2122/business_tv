@@ -10,17 +10,17 @@
     box-shadow: 0 0 0 0.02rem #009FE3;
 }
 </style>
-<div class="container">
+<div class="container" style="background: url('/assets/img/radio29.jpg'); background-size: cover;">
     <div class="page-banner">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-md-6">
                 <nav aria-label="Breadcrumb">
                     <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-                        <li class="breadcrumb-item"><a href="/">Accueil</a></li>
-                        <li class="breadcrumb-item active">Contact</li>
+                        <li class="breadcrumb-item "><a href="/" class="text-white" style="font-weight: 900;">Accueil</a></li>
+                        <li class="breadcrumb-item active text-white">Contact</li>
                     </ul>
                 </nav>
-                <h1 class="text-center">Contactez-nous</h1>
+                <h1 class="text-center text-white" >Contactez-nous</h1>
             </div>
         </div>
     </div>
@@ -29,22 +29,20 @@
 <div class="page-section">
     <div class="container">
         <div class="row text-center align-items-center">
-            <div class="col-lg-4 py-3">
+            <div class="col-lg-4 py-3 col-6">
                 <div class="display-4 text-center text-primary"><span class="mai-pin"></span></div>
                 <p class="mb-3 font-weight-medium text-lg">Address</p>
-                <p class="mb-0 text-secondary">203 Fake St. Mountain View, San Francisco, California, USA</p>
+                <p class="mb-0 text-secondary">Deuxième von à droite en quittant carrefour Toyota pour Etoile rouge Cotonou, Bénin</p>
             </div>
-            <div class="col-lg-4 py-3">
+            <div class="col-lg-4 py-3 col-6">
                 <div class="display-4 text-center text-primary"><span class="mai-call"></span></div>
-                <p class="mb-3 font-weight-medium text-lg">Phone</p>
-                <p class="mb-0"><a href="#" class="text-secondary">+1 232 3235 324</a></p>
-                <p class="mb-0"><a href="#" class="text-secondary">+00 1122 3344 5566</a></p>
+                <p class="mb-3 font-weight-medium text-lg">Téléphone</p>
+                <p class="mb-0"><a href="https://wa.me/+22964897003?text=Salut nous voulons avoir plus de renseignement sur votre projet" class="text-secondary">+229 64897003</a></p>
             </div>
-            <div class="col-lg-4 py-3">
+            <div class="col-lg-4 py-3 col-6">
                 <div class="display-4 text-center text-primary"><span class="mai-mail"></span></div>
                 <p class="mb-3 font-weight-medium text-lg">Email Address</p>
                 <p class="mb-0"><a href="#" class="text-secondary">support@seogram.com</a></p>
-                <p class="mb-0"><a href="#" class="text-secondary">hello@seogram.com</a></p>
             </div>
         </div>
     </div>
@@ -57,7 +55,7 @@
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <form action="{{ route('envoyer.email') }}" method="post" class="contact-form py-5 px-lg-5">
                     @csrf
-                    <h2 class="mb-4 font-weight-medium text-secondary">Get in touch</h2>
+                   
                     <div class="row form-group">
                         <div class="col-md-6 mb-3 mb-md-0">
                             <label class="text-black" for="fname">Nom</label>

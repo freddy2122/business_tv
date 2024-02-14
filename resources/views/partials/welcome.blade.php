@@ -19,6 +19,132 @@
         width: 100%;
         height: auto;
     }
+
+
+    .wrapper20 {
+        max-width: 1100px;
+        width: 100%;
+        position: relative;
+    }
+
+    .wrapper20 .ii {
+        top: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        font-size: 1.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+        z-index: 1;
+    }
+
+    .wrapper20 .ii:active {
+        transform: translateY(-50%) scale(0.85);
+    }
+
+    .wrapper20 .ii:first-child {
+        left: -22px;
+    }
+
+    .wrapper20 .ii:last-child {
+        right: -22px;
+    }
+
+    .wrapper20 .carousel20 {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    .carousel20::-webkit-scrollbar {
+        display: none;
+    }
+
+    .carousel20.no-transition {
+        scroll-behavior: auto;
+    }
+
+    .carousel20.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+    }
+
+    .carousel20.dragging .card {
+        cursor: grab;
+        user-select: none;
+    }
+
+    .carousel20 :where(.card, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel20 .card20 {
+        scroll-snap-align: start;
+       /*  height: 342px; */
+        list-style: none;
+        background: #fff;
+        cursor: pointer;
+        padding-bottom: 15px;
+        flex-direction: column;
+        border-radius: 8px;
+    }
+
+    .carousel20 .card20 .img {
+        background: #8b53ff;
+        height: 148px;
+        width: 148px;
+        border-radius: 50%;
+    }
+
+    .card20 .img img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+    }
+
+    .carousel20 .card20 h2 {
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 30px 0 5px;
+    }
+
+    .carousel20 .card20 span {
+        color: #6a6d78;
+        font-size: 1.31rem;
+    }
+
+    @media screen and (max-width: 900px) {
+        .wrapper20 .carousel20 {
+            grid-auto-columns: calc((100% / 2) - 9px);
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .wrapper20 .carousel20 {
+            grid-auto-columns: 100%;
+        }
+    }
+
+
+
+
+
 </style>
 <!-- <div class="container">
     <div class="page-banner home-banner">
@@ -56,7 +182,7 @@
     <div class="page-banner">
 
         <div class="video-container">
-            <video autoplay muted loop id="background-video"  >
+            <video autoplay muted loop id="background-video">
                 <source src="/assets/video/PUB.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise vidéo.
             </video>
@@ -75,11 +201,6 @@
                     <h2 class="title-section">Pensez-vous devenir entrepreneur?</h2>
                     <div class="divider"></div>
                     Envisager de devenir entrepreneur nécessite une combinaison de passion, de clarté dans le projet, et d'une approche bien planifiée. Faire un bilan personnel, confronter son idée au marché, suivre des étapes structurées, et s'entourer judicieusement sont des éléments cruciaux pour réussir dans l'entrepreneuriat. Accéder à des conseils, des informations, et suivre des conseils pratiques peut également jouer un rôle essentiel dans ce parcours.
-
-
-
-
-
 
                 </div>
                 <div class="col-lg-6 py-3 wow fadeInRight">
@@ -153,32 +274,32 @@
                                     </h2>
                                     <div id="flush-collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">- Organiser des émissions dédiées à l'entrepreneuriat. <br>
-                                           - Inviter des entrepreneurs à présenter leurs produits, partager leurs expériences, et discuter des défis qu'ils ont surmontés. <br>
-                                          -  Favoriser la visibilité des entrepreneurs et de leurs produits à travers différents médias.</div>
+                                            - Inviter des entrepreneurs à présenter leurs produits, partager leurs expériences, et discuter des défis qu'ils ont surmontés. <br>
+                                            - Favoriser la visibilité des entrepreneurs et de leurs produits à travers différents médias.</div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree4" aria-expanded="false" aria-controls="flush-collapseThree4">
-                                        Micros-Trottoirs sur l'Entrepreneuriat :
+                                            Micros-Trottoirs sur l'Entrepreneuriat :
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">- Réaliser des micros-trottoirs dans des zones fréquentées par la cible (jeunes, étudiants, élèves). <br>
-                                           - Poser des questions sur divers aspects de l'entrepreneuriat pour recueillir les opinions et perceptions du public.<br>
-                                          -  Diffuser ces micros-trottoirs sur les réseaux sociaux et autres plateformes pour sensibiliser et inspirer.</div>
+                                            - Poser des questions sur divers aspects de l'entrepreneuriat pour recueillir les opinions et perceptions du public.<br>
+                                            - Diffuser ces micros-trottoirs sur les réseaux sociaux et autres plateformes pour sensibiliser et inspirer.</div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree5" aria-expanded="false" aria-controls="flush-collapseThree5">
-                                        Débats et Partages de Connaissances :
+                                            Débats et Partages de Connaissances :
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">- Organiser des débats entre experts, entrepreneurs, et acteurs du secteur économique. <br>
-                                           - Aborder des sujets pertinents tels que les tendances du marché, l'innovation, et les opportunités entrepreneuriales.<br>
-                                          - Faciliter le partage de connaissances entre les participants pour favoriser l'apprentissage et l'émulation.</div>
+                                            - Aborder des sujets pertinents tels que les tendances du marché, l'innovation, et les opportunités entrepreneuriales.<br>
+                                            - Faciliter le partage de connaissances entre les participants pour favoriser l'apprentissage et l'émulation.</div>
                                     </div>
                                 </div>
                             </div>
@@ -193,57 +314,185 @@
             </div>
         </div>
     </div> <!-- .container -->
-</div> <!-- .page-section -->
+</div>
+
+
+<!-- .page-section -->
 
 
 
-<!-- <div class="page-section  ">
+<div class="page-section  ">
     <div class="container">
         <div class="row">
-        <h2 class="title-section text-center">Notre équipe</h2> 
-            <div class="col-lg-4">
-                <div class="card-service wow fadeInUp">
-                    <div class="header">
-                        <img src="/assets/img/services/service-1.svg" alt="">
-                    </div>
-                    <div class="body">
-                        <h5 class="text-secondary">SEO Consultancy</h5>
-                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
+            <h2 class="title-section text-center">Nos Collaboateurs</h2>
+           
+            <div class="col-lg-12">
+                <div class="wrapper20">
+                    <i id="left" class="fa-solid fa-angle-left ii"></i>
+                    <ul class="carousel20">
                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card-service wow fadeInUp">
-                    <div class="header">
-                        <img src="/assets/img/services/service-2.svg" alt="">
-                    </div>
-                    <div class="body">
-                        <h5 class="text-secondary">Content Marketing</h5>
-                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
+                        <li class="card-service wow fadeInUp card20">
+                            <img src="/assets/img/22.jpg"  class="card-img-top" height="200px" alt="">
+                            <div class="card-body w-100">
+                                <div class="texte d-flex align-items-top justify-content-center">
+                                    <h5 class="card-title">
+                                        CE QUE JE SUIS
+                                    </h5>
+                                </div>
+                                {{-- <div class='bottom-div'>
+                                    <a href="" class="bottom-link">Voir l'annonce</a>
+                                </div> --}}
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab dignissimos qui eveniet obcaecati ullam maxime ad numquam, nobis pariatur velit accusamus necessitatibus optio alias totam voluptate rem porro! Labore?</p>
+                        </li>
+                        
+                        <li class="card-service wow fadeInUp card20">
+                            <img src="/assets/img/23.jpg"  class="card-img-top" height="200px" alt="">
+                            <div class="card-body w-100">
+                                <div class="texte d-flex align-items-top justify-content-center">
+                                    <h5 class="card-title">
+                                        CE QUE JE SUIS
+                                    </h5>
+                                </div>
+                                {{-- <div class='bottom-div'>
+                                    <a href="" class="bottom-link">Voir l'annonce</a>
+                                </div> --}}
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab dignissimos qui eveniet obcaecati ullam maxime ad numquam, nobis pariatur velit accusamus necessitatibus optio alias totam voluptate rem porro! Labore?</p>
+                        </li>
+                        
+                        <li class="card-service wow fadeInUp card20">
+                            <img src="/assets/img/25.jpg"  class="card-img-top" height="200px" alt="">
+                            <div class="card-body w-100">
+                                <div class="texte d-flex align-items-top justify-content-center">
+                                    <h5 class="card-title">
+                                        CE QUE JE SUIS
+                                    </h5>
+                                </div>
+                                {{-- <div class='bottom-div'>
+                                    <a href="" class="bottom-link">Voir l'annonce</a>
+                                </div> --}}
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab dignissimos qui eveniet obcaecati ullam maxime ad numquam, nobis pariatur velit accusamus necessitatibus optio alias totam voluptate rem porro! Labore?</p>
+                        </li>
+                        
+                        <li class="card-service wow fadeInUp card20">
+                            <img src="/assets/img/25.jpg"  class="card-img-top" height="200px" alt="">
+                            <div class="card-body w-100">
+                                <div class="texte d-flex align-items-top justify-content-center">
+                                    <h5 class="card-title">
+                                        CE QUE JE SUIS
+                                    </h5>
+                                </div>
+                                {{-- <div class='bottom-div'>
+                                    <a href="" class="bottom-link">Voir l'annonce</a>
+                                </div> --}}
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab dignissimos qui eveniet obcaecati ullam maxime ad numquam, nobis pariatur velit accusamus necessitatibus optio alias totam voluptate rem porro! Labore?</p>
+                        </li>
+                        
                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card-service wow fadeInUp">
-                    <div class="header">
-                        <img src="/assets/img/services/service-3.svg" alt="">
-                    </div>
-                    <div class="body">
-                        <h5 class="text-secondary">Keyword Research</h5>
-                        <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                       
-                    </div>
+                    </ul>
+                    <i id="right" class="fa-solid fa-angle-right ii"></i>
                 </div>
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 
 
+<script>
+    const wrapper = document.querySelector(".wrapper20");
+    const carousel = document.querySelector(".carousel20");
+    const firstCardWidth = carousel.querySelector(".card20").offsetWidth;
+    const arrowBtns = document.querySelectorAll(".wrapper20 i");
+    const carouselChildrens = [...carousel.children];
 
+    let isDragging = false,
+        isAutoPlay = true,
+        startX,
+        startScrollLeft,
+        timeoutId;
+
+
+    let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+
+
+    carouselChildrens
+        .slice(-cardPerView)
+        .reverse()
+        .forEach((card) => {
+            carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
+
+
+    carouselChildrens.slice(0, cardPerView).forEach((card) => {
+        carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+    });
+
+
+    carousel.classList.add("no-transition");
+    carousel.scrollLeft = carousel.offsetWidth;
+    carousel.classList.remove("no-transition");
+
+
+    arrowBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+        });
+    });
+
+    const dragStart = (e) => {
+        isDragging = true;
+        carousel.classList.add("dragging");
+        startX = e.pageX;
+        startScrollLeft = carousel.scrollLeft;
+    };
+
+    const dragging = (e) => {
+        if (!isDragging) return;
+        carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+    };
+
+    const dragStop = () => {
+        isDragging = false;
+        carousel.classList.remove("dragging");
+    };
+
+    const infiniteScroll = () => {
+
+        if (carousel.scrollLeft === 0) {
+            carousel.classList.add("no-transition");
+            carousel.scrollLeft = carousel.scrollWidth - 2 * carousel.offsetWidth;
+            carousel.classList.remove("no-transition");
+        } else if (
+            Math.ceil(carousel.scrollLeft) ===
+            carousel.scrollWidth - carousel.offsetWidth
+        ) {
+            carousel.classList.add("no-transition");
+            carousel.scrollLeft = carousel.offsetWidth;
+            carousel.classList.remove("no-transition");
+        }
+
+
+        clearTimeout(timeoutId);
+        if (!wrapper.matches(":hover")) autoPlay();
+    };
+
+    const autoPlay = () => {
+        if (window.innerWidth < 800 || !isAutoPlay) return;
+        timeoutId = setTimeout(() => (carousel.scrollLeft += firstCardWidth), 2500);
+    };
+    autoPlay();
+
+    carousel.addEventListener("mousedown", dragStart);
+    carousel.addEventListener("mousemove", dragging);
+    document.addEventListener("mouseup", dragStop);
+    carousel.addEventListener("scroll", infiniteScroll);
+    wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+    wrapper.addEventListener("mouseleave", autoPlay);
+</script>
 
 
 

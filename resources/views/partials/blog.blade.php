@@ -313,9 +313,6 @@
 
 
 @endsection
-
-<<<<<<< HEAD
-=======
 <script>
     $(".custom-carousel").owlCarousel({
         autoWidth: true,
@@ -328,4 +325,3 @@
         });
     });
 </script>
->>>>>>> a71d4da6ff58b3eb7a58e0a6fc149bbaa3ab1a3a
